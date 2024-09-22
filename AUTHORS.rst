@@ -39,6 +39,7 @@ Contributors
 - Dimitris Apostolou <dimitris.apostolou@icloud.com>
 - Dirk Brömmel <dbroemmel@users.noreply.github.com>
 - Dmitry Bogatov <KAction@disroot.org>
+- Emil Velikov <emil.l.velikov@gmail.com>
 - Ethan Kerrick <kerrickethan@gmail.com>
 - FeRD (Frank Dana) <ferdnyc@gmail.com>
 - FestplattenSchnitzel <festplatte.schnitzel@posteo.de>

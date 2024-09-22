@@ -103,6 +103,12 @@ def parser() -> argparse.ArgumentParser:
         type=PathType("r", force_directory=True),
         help=_("define root of project"),
     )
+    try:
+        import shtab
+
+        shtab.add_argument_to(parser, ["-s", "--print-completion"])
+    except ImportError:
+        pass
     parser.add_argument(
         "--version",
         action="store_true",

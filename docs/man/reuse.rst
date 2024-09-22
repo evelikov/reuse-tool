@@ -77,6 +77,12 @@ Options
   current working directory's VCS repository, or to the current working
   directory.
 
+.. option:: -s, --print-completion SHELL
+
+  Print a static shell completion file, for the given shell. This option depends
+  on python-shtab and as such defines which shells are supported. Presently this
+  includes bash, tcsh and zsh, with fish support being proposed.
+
 .. option:: -h, --help
 
   Display help and exit. If no command is provided, this option is implied.
